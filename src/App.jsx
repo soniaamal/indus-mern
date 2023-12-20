@@ -17,6 +17,8 @@ function App() {
             path="/JobList"
             element={token ? <JobList /> : <Navigate to="/login" />}
           />
+          {/* <Route path="/joblist" element={<JobList />} /> */}
+
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={token ? <JobList /> : <Login />} />
           <Route path="/" element={<Home />} />

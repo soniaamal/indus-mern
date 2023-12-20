@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+
 const jobList = () => {
   const [jobList, setJobList] = useState([]);
 
@@ -64,6 +65,6 @@ const jobList = () => {
     </>
   );
 };
-export default JobList;
+export default jobList;
 
 
